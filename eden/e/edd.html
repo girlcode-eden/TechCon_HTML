@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Person</th>
+    <th colspan="2">Details</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>Age: 30</td>
+    <td>Occupation: Developer</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Person</th>
+    <th colspan="4">Details</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>Age: 30</td>
+    <td>Occupation: Developer</td>
+    <td>eden: mulugeta</td>
+  </tr>
+  <table>
+  <caption>Monthly Savings</caption>
+  <tr>
+    <th scope="col">Month</th>
+    <th scope="col">Savings</th>
+  </tr>
+  <tr>
+    <th scope="row">January</th>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <th scope="row">February</th>
+    <td>$80</td>
+  </tr>
+</table>
+</table>
+<input type="text" name="username" placeholder="Username"><br>
+<input type="password" name="password" placeholder="Password"><br>
+<input type="email" name="email" placeholder="Email"><br>
+<label for="username">Username:</label>
+<input type="checkbox" id="username" name="username" placeholder="Enter your username">
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="example@domain.com">
+<form action="/submit-form" method="post">
+    <label for="username">Username (4-8 characters):</label>
+    <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+<label for="password">Password (at least 8 characters):</label>
+<input type="password" id="password" name="password" required minlength="8" placeholder="Enter password">
+
+<label for="email">Email (must be valid):</label>
+<input type="email" id="email" name="email" required placeholder="your@email.com">
+
+<label for="age">Age (18+ only):</label>
+<input type="number" id="age" name="age" min="18" max="25" placeholder="Enter your age">
+
+<label for="phone">Phone (format: 123-456-7890):</label>
+<input type="tel" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" placeholder="123-456-7890">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <input type="text">
+<input type="password" id="pwd" name="password" required placeholder="Enter Password">
+<input type="email">
+<input type="checkbox">
+<input type="radio">
+<input type="submit">
+<input type="file">
+<input type="url"
+</form>
+<figure>
+    <img src="path/to/chart.png" alt="Sales Chart for 2024">
+    <figcaption>Figure 1: Sales chart showing monthly sales for 2024.</figcaption>
+</figure>
+<audio controls>
+    <source src="path/to/audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<video controls width="250">
+    <source src="path/to/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<video controls>
+    <source src="movie.mp4" type="video/mp4">
+    <track src="captions_en.vtt" kind="captions" srclang="en" label="English">
+    Your browser does not support the video tag.
+</video>
+</body>
+</html>
